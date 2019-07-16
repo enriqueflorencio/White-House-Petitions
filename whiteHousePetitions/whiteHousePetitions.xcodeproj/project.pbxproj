@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF68345F22DD465900A442DC /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68345E22DD465900A442DC /* Petition.swift */; };
+		CF68346122DD466000A442DC /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68346022DD466000A442DC /* Petitions.swift */; };
+		CF68346322DD469900A442DC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68346222DD469900A442DC /* DetailViewController.swift */; };
 		CF6F7BBF22DD441500558D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F7BBE22DD441500558D49 /* AppDelegate.swift */; };
 		CF6F7BC122DD441500558D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6F7BC022DD441500558D49 /* ViewController.swift */; };
 		CF6F7BC422DD441500558D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6F7BC222DD441500558D49 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF68345E22DD465900A442DC /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		CF68346022DD466000A442DC /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
+		CF68346222DD469900A442DC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CF6F7BBB22DD441500558D49 /* whiteHousePetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whiteHousePetitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6F7BBE22DD441500558D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF6F7BC022DD441500558D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 			children = (
 				CF6F7BBE22DD441500558D49 /* AppDelegate.swift */,
 				CF6F7BC022DD441500558D49 /* ViewController.swift */,
+				CF68345E22DD465900A442DC /* Petition.swift */,
+				CF68346022DD466000A442DC /* Petitions.swift */,
+				CF68346222DD469900A442DC /* DetailViewController.swift */,
 				CF6F7BC222DD441500558D49 /* Main.storyboard */,
 				CF6F7BC522DD441600558D49 /* Assets.xcassets */,
 				CF6F7BC722DD441600558D49 /* LaunchScreen.storyboard */,
@@ -136,7 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF6F7BC122DD441500558D49 /* ViewController.swift in Sources */,
+				CF68346122DD466000A442DC /* Petitions.swift in Sources */,
+				CF68346322DD469900A442DC /* DetailViewController.swift in Sources */,
 				CF6F7BBF22DD441500558D49 /* AppDelegate.swift in Sources */,
+				CF68345F22DD465900A442DC /* Petition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
